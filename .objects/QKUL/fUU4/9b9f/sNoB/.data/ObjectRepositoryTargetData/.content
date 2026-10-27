@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="aRHh_7VM4UGiuBPfoqu2lA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="273, 488, 100, 30" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl automationid='RepQSingleApplication.MainWindow.centralWidget.tabWidget.qt_tabw*' name='QAPAPAPOS02' role='list item' /&gt;" Guid="93a48b7f-2d2b-4e78-8cd3-f998b5ea4bbb" ScopeSelectorArgument="&lt;wnd app='sra-con.exe' cls='Qt687QWindowIcon' title='BeyondTrust Remote Support Representative Console - remotesuppor*' /&gt;" SearchSteps="Selector" Version="V6">
+      <imageRef attrName="InformativeScreenshot" originalValue="79e6d075b18547323d276ee74f2ffef9.jpg" xmlns="">0hRGwWKzEJkuibajK36ucOg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

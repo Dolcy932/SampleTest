@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome The UiPath Platform™ for Business Orch",
+  "Type": "Screen",
+  "Id": "QM-KhZ4bDUCC9MNSajjCng",
+  "Reference": "VJacOC5R-kKUmH2cghWy9g/QM-KhZ4bDUCC9MNSajjCng",
+  "ParentRef": "VJacOC5R-kKUmH2cghWy9g/QNmpgNKtAUSQS71bcWX4jA",
+  "Created": "2026-10-22T02:02:55.3788428Z",
+  "Updated": "2026-10-22T02:02:55.3788428Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.33.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "BeyondTrust Remote Support Representative Con",
+  "Type": "Screen",
+  "Id": "9b9f8YpQ5U2GAKxP-dAdyg",
+  "Reference": "VJacOC5R-kKUmH2cghWy9g/9b9f8YpQ5U2GAKxP-dAdyg",
+  "ParentRef": "VJacOC5R-kKUmH2cghWy9g/fUU4ZqhxAUKilofP26noiA",
+  "Created": "2026-10-27T01:02:14.3901458Z",
+  "Updated": "2026-10-27T01:02:14.3901458Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.33.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

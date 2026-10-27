@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Login",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "n8LUpRy0vES5IsUtFIRqOA",
+  "Reference": "VJacOC5R-kKUmH2cghWy9g/n8LUpRy0vES5IsUtFIRqOA",
+  "ParentRef": "VJacOC5R-kKUmH2cghWy9g/5BeLaxDlz06EVD-6ogd2HA",
+  "Created": "2026-10-27T00:57:00.7235697Z",
+  "Updated": "2026-10-27T00:57:00.7235697Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.33.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8OZptua2RU-BpfjZTWj6nQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="283, 308, 80, 24" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl automationid='RepQSingleApplication.LoginDialog.mainFrame.bottomFrame.loginBut*' /&gt;" Guid="8bea4a18-9c69-4e01-81e1-644f9626170c" ScopeSelectorArgument="&lt;wnd app='sra-con.exe' cls='Qt687QWindowIcon' title='BeyondTrust Remote Support - Login' /&gt;" SearchSteps="Selector" Version="V6">
+      <imageRef attrName="InformativeScreenshot" originalValue="bce80ae1deac8029c75b79c41b611546.jpg" xmlns="">0zz0AnQDqT0arJxTdabYVmg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

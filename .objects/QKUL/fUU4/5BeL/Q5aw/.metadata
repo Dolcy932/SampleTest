@@ -1,0 +1,14 @@
+﻿{
+  "Name": "editable text",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "Q5awfsscCkuG2w0VC3bXYw",
+  "Reference": "VJacOC5R-kKUmH2cghWy9g/Q5awfsscCkuG2w0VC3bXYw",
+  "ParentRef": "VJacOC5R-kKUmH2cghWy9g/5BeLaxDlz06EVD-6ogd2HA",
+  "Created": "2026-10-27T00:58:08.3774738Z",
+  "Updated": "2026-10-27T00:58:08.3774738Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.33.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

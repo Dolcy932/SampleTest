@@ -1,0 +1,13 @@
+﻿{
+  "Name": "BeyondTrust Remote Support - Login",
+  "Type": "Screen",
+  "Id": "5BeLaxDlz06EVD-6ogd2HA",
+  "Reference": "VJacOC5R-kKUmH2cghWy9g/5BeLaxDlz06EVD-6ogd2HA",
+  "ParentRef": "VJacOC5R-kKUmH2cghWy9g/fUU4ZqhxAUKilofP26noiA",
+  "Created": "2026-10-27T00:56:20.5201123Z",
+  "Updated": "2026-10-27T00:56:20.5201123Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.33.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.12.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

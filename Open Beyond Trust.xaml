@@ -1,0 +1,144 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Open_Beyond_Trust" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Open_Beyond_Trust" sap:VirtualizedContainerService.HintSize="1098,760" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="BeyondTrust Remote Support Representative Con" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,737" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="f69636e5-17f7-47d3-a31d-e41dac087d00" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,491" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'editable text'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="f69636e5-17f7-47d3-a31d-e41dac087d00" Text="QAPAPAPOS02[k(enter)]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable ContentHash="GHmh0xebpE235qozMF-zsA" DesignTimeRectangle="110, 436, 1398, 24" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl automationid='RepQSingleApplication.MainWindow.centralWidget.tabWidget.qt_tabw*' role='editable text' /&gt;" Guid="4e2fb9bf-203c-47ad-86bb-3ed2aed0eb6f" InformativeScreenshot="8cba6f56c9c8dfd05a7f9710fb010900.jpg" Reference="VJacOC5R-kKUmH2cghWy9g/Q5awfsscCkuG2w0VC3bXYw" ScopeSelectorArgument="&lt;wnd app='sra-con.exe' cls='Qt687QWindowIcon' title='BeyondTrust Remote Support Representative Console - remotesuppor*' /&gt;" SearchSteps="Selector" Version="V6" />
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'QAPAPAPOS02'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,185" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f69636e5-17f7-47d3-a31d-e41dac087d00" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="aRHh_7VM4UGiuBPfoqu2lA" DesignTimeRectangle="273, 488, 100, 30" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl automationid='RepQSingleApplication.MainWindow.centralWidget.tabWidget.qt_tabw*' name='QAPAPAPOS02' role='list item' /&gt;" Guid="93a48b7f-2d2b-4e78-8cd3-f998b5ea4bbb" InformativeScreenshot="79e6d075b18547323d276ee74f2ffef9.jpg" Reference="VJacOC5R-kKUmH2cghWy9g/sNoBiVn2V0iBC66LS3dfaA" ScopeSelectorArgument="&lt;wnd app='sra-con.exe' cls='Qt687QWindowIcon' title='BeyondTrust Remote Support Representative Console - remotesuppor*' /&gt;" SearchSteps="Selector" Version="V6" />
+              </uix:NClick.Target>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-1928, -8, 1936, 1048" ContentHash="-La5V4rb40SAs_VyfdJLkg" FilePath="C:\\Program Files\\Bomgar\\Representative Console\\remotesupport.foodstuffs-si.co.nz\\sra-con.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAOSSURBVFhH7VZdiBZVGH5cRQpNhDLTjFbnTJtbkaHO+XZlZTDnzK6FP/vNO7nYWlC3gVQEXsgihBHeVF52kRdBoBL+XUQZUmFBKARFRT8kigVGN9tmqekTZzjZfOcb153NLgIfeOD7eed5znnPO+d9gRuoCQrmMMcTzPE6BYco+JCCt5njNeZYT8FM/5nrAjYRMsebFFyigBR8TcG7FOyl4CgFp93v55jjZW7Arb7GpEBgCjNsoeBiYZLhGQrurIwTdDPHDgrGKPiFGYwfVwsUTGWG3W5nL/JJ3KT6BuaEUfKC0slRpc0Zpc25QJsflDb7VSN5ekFPz83cgNspOEDBZbtgX3dCcDvaRcF5ZngUGOlQ2mxV2owpbTgO7aIyl7kRt/hhX/+aYIZNxQ5yNLu7ZXqgk8MVZuMw2e50dlJwwR6P73FV2AKi4GcKXrHfA21ebTe4NsMoGSqOUfAJBcdsVnyvSrjU/chhzLAivnAN/hYsM/ezifuKbAoS36sNFEyn4Cdm2BrH8TR3pr7wxBmZg07XFuUh368NzLGyKJwhzF2kkzVtgvX5Z+fyNXcww7qiFoYxw/dsAXNso+Az+1lps69CsDYDbZ7nJswq7ocMse95BWfXoc/dbG9QsFDp9IAvNjkm211m91PwDgUP+N74IsZMCkbde2t5QkWr03ax2ry0qrf3bgrOlrS/9/3x+yAWlQIsLw/FS2+rEKzLb1ihzRjTWhZgi8MLIjdivtJmtEJ0wgx1+pE9d0/7TIv536Dg15bAJh5S2nzpi9bkXmbY7C3gY9+7AAXftgRmGFDafFAhWoc73Jv1j26Ot3zvAq6vlwObSicnK0TLPBXqtBk2Vi+2DCKzvri6I/PUvY3+Tg5igZsbyhvb6XsXYIZB1zhs4Odr+3ofqTBs4T1R2ucmofcoOELBS3YOYIbn3LRktU6VFmAb3Erf+wqKkcsOFoKpqtEf+4btHLAXzPstO7TDiOA7CvbYVs4RdDBDLwXPUtDje46HKUqb4+2mZSaP8zE8WExCdhQrZgfADia2EXUt6+/yRWtBNdK83bTEyPxhCy2I0s22c4Y62Wbffff/aLDc3OVr1oXNwqR6QtjoH/TFJoWuFWtvUdp85RuMR5sJX+dfYaF+eO4E74RRFSXiP3+dMNIRaLMxbKRHlDYXSqZjYSP5VOl0S+eSeLb/1H8COy0tXprO61qRzLd14v9/A/8b/AUGQHy5Qc21iQAAAABJRU5ErkJggg==" InformativeScreenshot="b61501de8b9bbb892368b2e3a712bbd6.jpg" Reference="VJacOC5R-kKUmH2cghWy9g/9b9f8YpQ5U2GAKxP-dAdyg" Selector="&lt;wnd app='sra-con.exe' cls='Qt687QWindowIcon' title='BeyondTrust Remote Support Representative Console - remotesuppor*' /&gt;" Version="V3" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
